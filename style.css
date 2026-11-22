@@ -1,0 +1,172 @@
+* {
+	font-family: "Adwaita Sans", "MesloLGS Nerd Font", sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+	border-radius: 0px;
+}
+
+tooltip {
+	background-color: transparent;
+	border: none;
+}
+
+
+tooltip label {
+	color: #f6f5f4;
+	padding: 4px 8px;
+}
+
+tooltip > box{
+	background-color: #1c1f26;
+	color: #ffffff;
+	border-radius: 7px;
+	border: 1px solid #99c1f1;
+
+}
+
+window#waybar {
+	background-color: transparent;
+	border: none;
+}
+
+window#waybar > box {
+	background-color: #1c1f26;
+	color: #ffffff;
+	border-radius: 0px;
+}
+
+#workspaces {
+  background: transparent;
+  margin-top: 10px;
+}
+
+#workspaces button {
+  background: transparent;
+  color: #ffffff;
+  min-width: 0;
+  padding: 0px;
+  margin: 8px 0px;
+  margin-left: 17px;
+  border-radius: 12px;
+}
+
+#workspaces button label {
+  font-size: 14px;
+}
+
+#workspaces button.empty {
+  color: #4c566a;
+}
+
+#workspaces button.active,
+#workspaces button.focused {
+  background-color: #99c1f1;
+  color: #99c1f1;
+  padding: 3px 0px;
+  margin: 5px 15px;
+  border-radius: 12px;
+}
+
+#workspaces button:hover {
+  background: transparent;
+  color: #88c0d0;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+#clock {
+  margin-bottom: 10px;
+	color: #f6f5f4;
+	font-size: 14px;
+}
+
+#battery {
+  color: #8ff0a4;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#network {
+  color: #99c1f1;
+  font-size: 20px;
+  margin-right: 7px;
+  margin-bottom: 10px;
+}
+
+#bluetooth {
+  color: #1c71d8;
+  font-size: 20px;
+  margin-right: 2px;
+  margin-bottom: 10px;
+}
+
+
+/* Pulseaudio slider */
+
+#pulseaudio-slider {
+	padding: 6px 0;
+	margin-bottom: 25px;
+}
+
+#pulseaudio-slider slider {
+	min-height: 0px;
+	min-width: 0px;
+	opacity: 0;
+	background-image: none;
+	border: none;
+	box-shadow: none;
+}
+
+#pulseaudio-slider trough {
+	min-height: 70px;
+	min-width: 12px;
+	border-radius: 99px;
+	background-color: #556c87;
+	border: 1px solid #3d3846;
+}
+
+#pulseaudio-slider highlight {
+	min-width: 6px;
+	border-radius: 99px;
+	background-color: #62a0ea;
+}
+
+/* Backlight slider */
+
+#backlight-slider {
+	padding: 6px 0;
+	margin-bottom: 5px;
+}
+
+#backlight-slider slider {
+	min-height: 0px;
+	min-width: 0px;
+	opacity: 0;
+	background-image: none;
+	border: none;
+	box-shadow: none;
+}
+
+#backlight-slider trough {
+	min-height: 70px;
+	min-width: 12px;
+	border-radius: 99px;
+	background-color: #8a7c4e;
+	border: 1px solid #3d3846;
+}
+
+#backlight-slider highlight {
+	min-width: 6px;
+	border-radius: 99px;
+	background-color: #f9f06b;
+}
+
+
+
+
+
+
+
+
+
